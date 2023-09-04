@@ -29,44 +29,44 @@
 .customLayout .outerLeft {
   grid-column: 1;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 
 .customLayout .outerRight {
   grid-column: 4;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 
 .customLayout .inner {
   grid-column-start: 2;
   grid-column-end: 3;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 
 .customLayout .innerLeft {
   grid-column: 2;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 
 .customLayout .innerRight {
   grid-column: 2;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 
 .customLayout .innerLeft {
   grid-column: 2;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 
 .customLayout .innerRight {
   grid-column: 3;
   grid-row-start: 1;
-  grid-row-end: 2;
+  grid-row-end: 3;
 }
 
 .customLayout .innerUpperLeft {
