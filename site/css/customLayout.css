@@ -1,0 +1,139 @@
+/*
+  Sorcerer
+  Copyright (c) Ehan Ahamed and contributors
+  Licensed under the UPL-1.0 License
+  https://sorcerer.ehan.dev/LICENSE.txt
+*/
+
+/*
+  See docs/contrib/customLayout.md
+*/
+.customLayout {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+.customLayout.hideOuterLeft {
+  grid-template-columns: 2fr 2fr 1fr;
+}
+
+.customLayout.hideOuterRight {
+  grid-template-columns: 1fr 2fr 2fr;
+}
+
+.customLayout.hideOuterLeft.hideOuterRight {
+  grid-template-columns: 2fr 2fr;
+}
+
+.customLayout .outerLeft {
+  grid-column: 1;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.customLayout .outerRight {
+  grid-column: 4;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.customLayout .inner {
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.customLayout .innerLeft {
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.customLayout .innerRight {
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.customLayout .innerLeft {
+  grid-column: 2;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.customLayout .innerRight {
+  grid-column: 3;
+  grid-row-start: 1;
+  grid-row-end: 2;
+}
+
+.customLayout .innerUpperLeft {
+  grid-column: 2;
+  grid-row: 1;
+}
+
+.customLayout .innerLowerLeft {
+  grid-column: 2;
+  grid-row: 2;
+}
+
+.customLayout .innerUpperRight {
+  grid-column: 3;
+  grid-row: 1;
+}
+
+.customLayout .innerLowerRight {
+  grid-column: 3;
+  grid-row: 2;
+}
+
+.customLayout.hideOuterLeft .outerLeft {
+  display: none;
+}
+
+.customLayout.hideOuterLeft .outerRight {
+  grid-column: 3;
+}
+
+.customLayout.hideOuterLeft .inner {
+  grid-column-start: 1;
+  grid-column-end: 2;
+}
+
+.customLayout.hideOuterLeft .innerLeft {
+  grid-column: 1;
+}
+
+.customLayout.hideOuterLeft .innerRight {
+  grid-column: 2;
+}
+
+.customLayout.hideOuterLeft .innerLeft {
+  grid-column: 1;
+}
+
+.customLayout.hideOuterLeft .innerRight {
+  grid-column: 2;
+}
+
+.customLayout.hideOuterLeft .innerUpperLeft {
+  grid-column: 1;
+}
+
+.customLayout.hideOuterLeft .innerLowerLeft {
+  grid-column: 1;
+}
+
+.customLayout.hideOuterLeft .innerUpperRight {
+  grid-column: 2;
+}
+
+.customLayout.hideOuterLeft .innerLowerRight {
+  grid-column: 2;
+}
+
+.customLayout.hideOuterRight .outerRight {
+  display: none;
+}
